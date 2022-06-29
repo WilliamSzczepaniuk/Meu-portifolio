@@ -10,4 +10,9 @@ const config = {
   initialColorMode: "light",
   useSystemColor: false,
 };
-export const theme = extendTheme({ config, breakPoints });
+const colors = {
+  darkgray: {
+    100: "#181818",
+  },
+};
+export const theme = extendTheme({ config, breakPoints, colors });

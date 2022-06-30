@@ -25,7 +25,7 @@ export const Card = ({ project }) => {
         <h2>
           <AccordionButton _expanded={{ backgroundColor: "darkgray.100" }}>
             <Box color={"white"}>{"Mais informações"}</Box>
-            <AccordionIcon />
+            <AccordionIcon color={"white"} />
           </AccordionButton>
         </h2>
         <AccordionPanel

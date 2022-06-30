@@ -11,7 +11,13 @@ export const Header = () => {
       justifyContent={"space-evenly"}
       display={"flex"}
     >
-      <Heading px={[1, 2, 3]} py="3" fontSize={[14, 20, 30]} w={"100%"}>
+      <Heading
+        color={"white"}
+        px={[1, 2, 3]}
+        py="3"
+        fontSize={[14, 20, 30]}
+        w={"100%"}
+      >
         Will/dev
       </Heading>
       <Flex justifyContent={"space-evenly"} w={"100%"}>

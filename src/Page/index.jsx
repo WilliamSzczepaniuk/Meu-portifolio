@@ -26,7 +26,7 @@ export const Page = () => {
             "https://lh3.googleusercontent.com/x4Xo-UILE0fhEshwxc29WUlSZkJ5IQqP0WtbkL_x5TmG9BAXBZe8dBjj_dM8OdeZq8ZSUnDZ0YWrZClBdlajn6QLJLiLSiAtoIKWAg=w600"
           }
         >
-          <Text mb={[65, 20, 50]} fontSize={[16, 20, 28]}>
+          <Text color={"white"} mb={[65, 20, 50]} fontSize={[16, 20, 28]}>
             Minha jornada na programação...
           </Text>
           <Grid

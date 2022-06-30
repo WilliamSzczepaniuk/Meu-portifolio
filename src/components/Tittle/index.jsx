@@ -3,6 +3,7 @@ import { Heading } from "@chakra-ui/react";
 export const Tittle = ({ tittle }) => {
   return (
     <Heading
+      color={"white"}
       mb={5}
       mt={5}
       h={[10, 12, 14]}

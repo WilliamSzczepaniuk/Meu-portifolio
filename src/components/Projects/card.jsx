@@ -24,11 +24,12 @@ export const Card = ({ project }) => {
         <Image w={44} h={12} src={img} />
         <h2>
           <AccordionButton _expanded={{ backgroundColor: "darkgray.100" }}>
-            <Box>{"Mais informações"}</Box>
+            <Box color={"white"}>{"Mais informações"}</Box>
             <AccordionIcon />
           </AccordionButton>
         </h2>
         <AccordionPanel
+          color={"white"}
           flexWrap={"wrap"}
           justifyContent={"space-evenly"}
           w={"200"}

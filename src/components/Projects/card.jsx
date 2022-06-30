@@ -8,10 +8,12 @@ import {
   Image,
   Text,
   Flex,
+  Link,
 } from "@chakra-ui/react";
+
 import { FaGithub, FaReact } from "react-icons/fa";
 export const Card = ({ project }) => {
-  const { img, describe } = project;
+  const { img, describe, gitLink, siteLink } = project;
   return (
     <Accordion p={8} m={"1"} w={[310, 400, 500]} allowMultiple>
       <AccordionItem
@@ -37,13 +39,15 @@ export const Card = ({ project }) => {
           </Text>
           <Flex alignItems={"center"} flexDirection={"column"}>
             <FaGithub size={30} />
-            <Text m={1} fontSize={[12, 14, 16]}>
+            <Link href={gitLink} isExternal m={1} fontSize={[12, 14, 16]}>
               Repositório
-            </Text>
+            </Link>
           </Flex>
           <Flex alignItems={"center"} flexDirection={"column"}>
             <FaReact size={30} />
-            <Text fontSize={[12, 14, 16]}>Pagina</Text>
+            <Link href={siteLink} fontSize={[12, 14, 16]}>
+              Pagina
+            </Link>
           </Flex>
         </AccordionPanel>
       </AccordionItem>

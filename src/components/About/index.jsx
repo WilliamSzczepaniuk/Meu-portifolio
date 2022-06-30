@@ -6,7 +6,6 @@ export const About = () => {
     <Flex
       flexDir={"column"}
       bg={"black"}
-      h={"100%"}
       alignItems={"center"}
       justifyContent={"center"}
       flexWrap={"wrap"}
@@ -15,7 +14,12 @@ export const About = () => {
       id="Sobre"
     >
       <Tittle tittle="Um pouco sobre mim" />
-      <Image borderRadius={"180"} w={[130, 200, 300]} src={image} />
+      <Image
+        pt={[10, 20, 30]}
+        borderRadius={[200, 200, 380]}
+        w={[130, 160, 300]}
+        src={image}
+      />
       <Flex
         flexDirection={"column"}
         pt={"3"}

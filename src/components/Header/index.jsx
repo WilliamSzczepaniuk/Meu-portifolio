@@ -1,14 +1,7 @@
-import { Skip, Flex, Heading } from "@chakra-ui/react";
-import { Link, scroller, Element } from "react-scroll";
+import { Flex, Heading } from "@chakra-ui/react";
+
 import { LinkButton } from "./linkButton";
 export const Header = () => {
-  scroller.scrollTo("", {
-    duration: 1500,
-    delay: 100,
-    smoth: true,
-    containerId: "SobreLink",
-    offSet: 50,
-  });
   return (
     <Flex
       bg={"black"}

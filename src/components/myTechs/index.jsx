@@ -9,7 +9,7 @@ export const MyTechs = () => {
       alignItems="center"
     >
       <Tittle tittle="   Meus domínios na área tech" />
-      <Box bg={"darkgray.100"} w={[200, 400, 600]}>
+      <Box mt={[10, 20, 30]} bg={"darkgray.100"} w={[200, 400, 600]}>
         <Flex flexDirection={"column"} alignItems="center">
           <Heading>Front end</Heading>
           <Text>Css</Text>

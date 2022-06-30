@@ -9,6 +9,7 @@ export const Projects = () => {
       h={"100%"}
       bg={"black"}
       flexDirection={"column"}
+      id="Projetos"
     >
       <Tittle tittle="Projetos em equipe e próprios" />
       <Box mt={10}>

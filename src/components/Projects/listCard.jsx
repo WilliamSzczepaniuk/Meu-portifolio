@@ -4,7 +4,6 @@ export const ListCard = ({ arrayProjects }) => {
   return (
     <Flex
       justifyContent={"center"}
-      id="Projetos"
       w={[250, "100%", "100%"]}
       bg={"darkgray.100"}
       flexWrap={"wrap"}

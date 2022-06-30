@@ -15,7 +15,7 @@ export const LinkButton = ({ description }) => {
     >
       <Link
         duration={1500}
-        offset={-200}
+        offset={-40}
         spy={true}
         smooth={true}
         activeClass="active"

@@ -4,7 +4,7 @@ import { Tittle } from "../Tittle";
 export const Qualifications = () => {
   return (
     <Flex
-      pt={[70, 200, 200]}
+      id="Qualificações"
       bgColor={"black"}
       alignItems={"center"}
       justifyContent={"center"}
@@ -12,7 +12,7 @@ export const Qualifications = () => {
     >
       <Tittle tittle="Certificações e diplomas" />
       <Image
-        id="Qualificações"
+        pt={[10, 21, 30]}
         w={["5xl"]}
         src={Certificado}
         alt="Certificado "

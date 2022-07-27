@@ -1,1 +1,1 @@
-Dependecias : yarn add @chakra-ui/core @emotion/react react-router-dom react-scroll react-typist @emotion/styled
+Dependecias : yarn add @chakra-ui/core @emotion/react react-router-dom react-scroll react-typist @emotion/styled react-scripts

@@ -1,6 +1,6 @@
 import LogoKenzieHub from "../assets/Logo.svg";
 import EasyMovie from "../assets/logoEasyMovie.png";
-import logoKenzieShop from "../assets/logoKenzieShop.png";
+import logoKenzieShop from "../assets/2022-07-27.png";
 export const arrayProjects = [
   {
     name: "KenzieHub",
@@ -21,9 +21,8 @@ export const arrayProjects = [
   {
     name: "E-Comerce",
     img: logoKenzieShop,
-    describe: "E-comerce de celulares",
+    describe: "E-comerce de celulares, utilizando Material-ui",
     gitLink: "https://github.com/WilliamSzczepaniuk/e-shop.git",
     siteLink:
-      "https://react-entrega-s3-kenzishop-com-context-api-nine.vercel.app/cart",
-  },
+    "https://e-shop-cyan.vercel.app/"  },
 ];

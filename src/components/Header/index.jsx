@@ -1,30 +1,39 @@
 import { Flex, Heading } from "@chakra-ui/react";
-
+import { MyTechs } from "../myTechs";
+import { Projects } from "../Projects";
 import { LinkButton } from "./linkButton";
-export const Header = () => {
+import { Qualifications } from "../Contact";
+import { About } from "../About";
+export const Header = ({ setActualComponent }) => {
   return (
     <Flex
-      bg={"black"}
-      opacity={"88%"}
-      position={"fixed"}
+      background={"rgba(14,1,36,1)"}
+      h={["35px", 45, 50]}
       w={"100vw"}
       justifyContent={"space-evenly"}
       display={"flex"}
     >
-      <Heading
-        color={"white"}
-        px={[1, 2, 3]}
-        py="3"
-        fontSize={[14, 20, 30]}
-        w={"100%"}
-      >
-        Will/dev
-      </Heading>
       <Flex justifyContent={"space-evenly"} w={"100%"}>
-        <LinkButton description={"Sobre"} />
-        <LinkButton description={"Tecnologias"} />
-        <LinkButton description={"Qualificações"} />
-        <LinkButton description={"Projetos"} />
+        <LinkButton
+          component={About}
+          setActualComponent={setActualComponent}
+          description={"Sobre"}
+        />
+        <LinkButton
+          component={MyTechs}
+          setActualComponent={setActualComponent}
+          description={"Tecnologias"}
+        />
+        <LinkButton
+          component={Qualifications}
+          setActualComponent={setActualComponent}
+          description={"Contato"}
+        />
+        <LinkButton
+          component={Projects}
+          setActualComponent={setActualComponent}
+          description={"Projetos"}
+        />
       </Flex>
     </Flex>
   );

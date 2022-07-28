@@ -21,10 +21,10 @@ export const Card = ({ project }) => {
         flexDirection={"column"}
         alignItems="center"
       >
-        <Image w={44} h={12} src={img} />
+        <Image w={[40,43,44]} h={[10,12,14]} src={img} />
         <h2>
           <AccordionButton _expanded={{ backgroundColor: "darkgray.100" }}>
-            <Box color={"white"}>{"Mais informações"}</Box>
+            <Box color={"white"}>{"Sobre"}</Box>
             <AccordionIcon color={"white"} />
           </AccordionButton>
         </h2>
@@ -35,7 +35,7 @@ export const Card = ({ project }) => {
           w={"200"}
           display={"flex"}
         >
-          <Text w={"100%"} textAlign={"center"} p={1}>
+          <Text fontSize={[12,14,16]} flexFlow={1} textAlign={"center"} p={1}>
             {describe}
           </Text>
           <Flex alignItems={"center"} flexDirection={"column"}>

@@ -7,7 +7,6 @@ export const Projects = () => {
     <Flex
       alignItems={"center"}
       h={"100%"}
-      bg={"black"}
       flexDirection={"column"}
       id="Projetos"
     >

@@ -1,10 +1,12 @@
 import { Grid } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
-import { Link } from "react-scroll";
-export const LinkButton = ({ description }) => {
+import { Link } from "@chakra-ui/react";
+export const LinkButton = ({ description, setActualComponent, component }) => {
   return (
     <Grid
+      onClick={() => setActualComponent(component)}
       _hover={{
+        color: "#6467ce",
         cursor: "pointer",
         borderStyle: "solid",
         borderBottom: "1px",
@@ -13,17 +15,7 @@ export const LinkButton = ({ description }) => {
       px="0.25em"
       color={"white"}
     >
-      <Link
-        duration={1500}
-        offset={-40}
-        spy={true}
-        smooth={true}
-        activeClass="active"
-        to={description}
-        color="white"
-      >
-        <Text fontSize={[12, 16, 18]}>{description}</Text>
-      </Link>
+      <Text fontSize={[12, 16, 18]}>{description}</Text>
     </Grid>
   );
 };

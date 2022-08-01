@@ -13,27 +13,15 @@ export const Header = ({ setActualComponent }) => {
       justifyContent={"space-evenly"}
       display={"flex"}
     >
-      <Flex justifyContent={"space-evenly"} w={"100%"}>
-        <LinkButton
-          component={About}
-          setActualComponent={setActualComponent}
-          description={"Sobre"}
-        />
-        <LinkButton
-          component={MyTechs}
-          setActualComponent={setActualComponent}
-          description={"Tecnologias"}
-        />
-        <LinkButton
-          component={Qualifications}
-          setActualComponent={setActualComponent}
-          description={"Contato"}
-        />
-        <LinkButton
-          component={Projects}
-          setActualComponent={setActualComponent}
-          description={"Projetos"}
-        />
+      <Flex
+        fontFamily={"Roboto, sans-serif"}
+        justifyContent={"space-evenly"}
+        w={"100%"}
+      >
+        <LinkButton component={About} description={"Sobre"} />
+        <LinkButton component={MyTechs} description={"Tecnologias"} />
+        <LinkButton component={Qualifications} description={"Contato"} />
+        <LinkButton component={Projects} description={"Projetos"} />
       </Flex>
     </Flex>
   );

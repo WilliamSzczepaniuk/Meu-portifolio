@@ -1,21 +1,19 @@
 import { Box } from "@chakra-ui/react";
 import { Header } from "../components/Header";
-import { About } from "../components/About";
 import { useContext } from "react";
-
-import { contentContext } from "../Providers/Content";
+import { ContentContext } from "../Providers/Content";
 import { useEffect } from "react";
 
 export const Page = () => {
-  const { actualComponent, setActualComponent } = useContext(contentContext);
+  const { actualComponent } = useContext(ContentContext);
 
-  console.log(actualComponent);
   return (
     <Box
-      h={"100vh"}
+      minHeight={"100vh"}
+      h={"100%"}
       background={`linear-gradient(0deg, rgba(14,1,36,1) 0%, rgba(31,5,68,1) 50%, rgba(12,1,32,1) 100%)`}
     >
-      <Header setActualComponent={setActualComponent} />
+      <Header />
       <Box fontFamily={"helvetica"} w={"100vw"}>
         <Box>{actualComponent}</Box>
       </Box>

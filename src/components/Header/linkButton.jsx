@@ -1,10 +1,13 @@
 import { Grid } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
-export const LinkButton = ({ description, setActualComponent, component }) => {
+import { useContext } from "react";
+import { ContentContext } from "../../Providers/Content";
+
+export const LinkButton = ({ description, component }) => {
+  const { updateContent } = useContext(ContentContext);
   return (
     <Grid
-      onClick={() => setActualComponent(component)}
+      onClick={() => updateContent(component)}
       _hover={{
         color: "#6467ce",
         cursor: "pointer",

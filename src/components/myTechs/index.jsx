@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Heading } from "@chakra-ui/react";
+import { Flex, Box, Heading } from "@chakra-ui/react";
 import { Tittle } from "../Tittle";
 import { Skills } from "./skills";
 
@@ -7,23 +7,27 @@ export const MyTechs = () => {
     <Flex flexDirection={"column"} alignItems="center">
       <Tittle tittle="Meus domínios na área tech" />
       <Box
-        borderRadius={"10px"}
-        mt={[10, 20, 30]}
-        border="inset white 10px"
-        borderColor={"white"}
-        bg={"darkgray.100"}
-        w={[200, 400, 600]}
+        p={[1, 2, 3]}
+        borderRadius="100px 25px 100px 25px"
+        mt={[10, 20, "100px"]}
+        border="7px inset #4531A4"
+        w={[200, 400, 500]}
       >
         <Flex color={"white"} flexDirection={"column"} alignItems="center">
           <Heading
+            fontFamily={"Roboto, sans-serif"}
             color="#FFFFFF"
             background={"rgba(14,1,36,1)"}
             textShadow="2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5"
           >
             Front end
           </Heading>
-          <Box>
-            <Skills icon={false} text="JavaScript" />
+          <Box
+            fontWeight={"light"}
+            fontFamily="Roboto,sans-serif"
+            mt={[1, 2, 3]}
+          >
+            <Skills text="JavaScript" />
             <Skills text="React" />
             <Skills text="TypeScript" />
             <Skills text="Styled Components" />
@@ -31,10 +35,12 @@ export const MyTechs = () => {
             <Skills text="Git" />
             <Skills text="Material UI"></Skills>
             <Skills text="CSS"></Skills>
-            <Skills text="Context"> API</Skills>
+            <Skills text="Context API"> API</Skills>
             <Skills text="Chakra UI"></Skills>
             <Skills text="Consumo de API"></Skills>
             <Skills text="Vercel"></Skills>
+            <Skills icon={false} text="Angular" />
+            <Skills icon={false} text="NextJs" />
           </Box>
         </Flex>
       </Box>

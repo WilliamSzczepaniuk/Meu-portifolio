@@ -1,10 +1,10 @@
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { MyTechs } from "../myTechs";
 import { Projects } from "../Projects";
 import { LinkButton } from "./linkButton";
 import { Qualifications } from "../Contact";
 import { About } from "../About";
-export const Header = ({ setActualComponent }) => {
+export const Header = () => {
   return (
     <Flex
       background={"rgba(14,1,36,1)"}

@@ -1,4 +1,4 @@
-import { Heading, Box, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { ListCard } from "./listCard";
 import { arrayProjects } from "../../assets/ArrayProjects";
 import { Tittle } from "../Tittle";

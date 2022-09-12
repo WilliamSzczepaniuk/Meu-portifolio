@@ -2,7 +2,7 @@ import { createContext } from "react";
 import { useState } from "react";
 import { About } from "../../components/About";
 
-export const ContentContext = createContext();
+export const ContentContext = createContext({});
 
 export const ContentProvider = ({ children }) => {
   const [actualComponent, setActualComponent] = useState(About);

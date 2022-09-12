@@ -39,7 +39,7 @@ export const MyTechs = () => {
             <Skills text="Chakra UI"></Skills>
             <Skills text="Consumo de API"></Skills>
             <Skills text="Vercel"></Skills>
-            <Skills icon={false} text="Angular" />
+            <Skills icon={false} text="Flutter" />
             <Skills icon={false} text="NextJs" />
           </Box>
         </Flex>

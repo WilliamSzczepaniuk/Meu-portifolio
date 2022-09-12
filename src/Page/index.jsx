@@ -2,7 +2,6 @@ import { Box } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 import { useContext } from "react";
 import { ContentContext } from "../Providers/Content";
-import { useEffect } from "react";
 
 export const Page = () => {
   const { actualComponent } = useContext(ContentContext);

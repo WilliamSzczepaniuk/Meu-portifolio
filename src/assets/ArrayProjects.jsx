@@ -23,6 +23,13 @@ export const arrayProjects = [
     img: logoKenzieShop,
     describe: "E-comerce de celulares, utilizando Material-ui",
     gitLink: "https://github.com/WilliamSzczepaniuk/e-shop.git",
-    siteLink:
-    "https://e-shop-cyan.vercel.app/"  },
+    siteLink: "https://e-shop-cyan.vercel.app/",
+  },
+  {
+    name: "E-Comerce",
+    img: logoKenzieShop,
+    describe: "E-comerce de celulares, utilizando Material-ui",
+    gitLink: "https://github.com/WilliamSzczepaniuk/e-shop.git",
+    siteLink: "https://e-shop-cyan.vercel.app/",
+  },
 ];

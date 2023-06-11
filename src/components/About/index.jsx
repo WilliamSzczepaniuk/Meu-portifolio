@@ -38,16 +38,10 @@ export const About = () => {
           p={"2"}
           color="white"
         >
-          Minha conexão com a tecnologia começou desde muito novo, por gostar
-          muito de games, e neste meu último emprego tive contato com um sistema
-          de estoque bem complexo, que me fez ponderar sobre programação, então
-          comecei a buscar a forma de trabalhar com isso, me apaixonei pela área
-          porque para mim o código limpo e bem escrito é algo que beira uma
-          arte, pela sua complexidade e possibilidade de sempre estar
-          progredindo como profissional, dependendo somente da vontade de
-          estudar. Meus objetivos são fazer aplicações e designers, que tragam a
-          melhor experiência para o usuário e também fazer parte de uma equipe
-          que tem paixão pelo que faz e sempre dá seu melhor.
+          Tenho estudado e me aprimorado a alguns anos e acredito estar pronto
+          para começar a minha jornada. Quero uma oportunidade para mostrar a
+          minha capacidade de crescer e aprimorar os meus conhecimentos sobre
+          tecnologia e também minhas habilidades profissionais (soft-skills).
         </Text>
       </Flex>
     </Flex>

@@ -29,17 +29,18 @@ export const MyTechs = () => {
           >
             <Skills text="JavaScript" />
             <Skills text="React" />
-            <Skills text="TypeScript" />
+            <Skills icon={false} text="TypeScript" />
             <Skills text="Styled Components" />
             <Skills text="Redux" />
             <Skills text="Git" />
-            <Skills text="Material UI"></Skills>
-            <Skills text="CSS"></Skills>
-            <Skills text="Context API"> API</Skills>
-            <Skills text="Chakra UI"></Skills>
-            <Skills text="Consumo de API"></Skills>
-            <Skills text="Vercel"></Skills>
-            <Skills icon={false} text="Flutter" />
+            <Skills text="Material UI" />
+            <Skills text="CSS" />
+            <Skills text="Context API" />
+            <Skills text="Chakra UI" />
+            <Skills text="Consumo de API" />
+            <Skills text="Vercel" />
+            <Skills icon={false} text="Laravel" />
+            <Skills icon={false} text="PHP" />
             <Skills icon={false} text="NextJs" />
           </Box>
         </Flex>
